@@ -1,0 +1,8 @@
+﻿<Window x:Class="LekkerFutter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <Image Height="450" HorizontalAlignment="Left" Margin="607,579,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="738" />
+    </Grid>
+</Window>
