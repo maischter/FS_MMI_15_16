@@ -5,6 +5,6 @@
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized">
     <Grid>
-        <Image Source="C:\Users\Philipp\Documents\FS_MMI_15_16\LekkerFutter\LekkerFutter\Img\schneidebrett.jpg" Height="450" HorizontalAlignment="Left" Margin="607,579,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="738" />
+        <Image Source="Img/schneidebrett.jpg" Height="450" HorizontalAlignment="Left" Margin="607,579,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="738" />
     </Grid>
 </Window>
