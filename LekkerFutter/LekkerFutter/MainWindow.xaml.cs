@@ -21,7 +21,6 @@ namespace LekkerFutter
     {
         public MainWindow()
         {
-
             InitializeComponent();
         }
     }
