@@ -5,7 +5,9 @@
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized">
     <Grid>
-        <Image Source="Img/background.png" Name="background" Stretch="Fill" VerticalAlignment="Top" />
+        <Image Source="Img/background.png" Name="background" Stretch="Fill" VerticalAlignment="Top" ImageFailed="background_ImageFailed" />
         <Image Source="Img/schneidebrett.jpg" Height="450" HorizontalAlignment="Left" Margin="607,579,0,0" Name="schneidebrett" Stretch="Fill" VerticalAlignment="Top" Width="738" />
+        <Image Source="Img/checkmark.png" Height="250" HorizontalAlignment="Left" Margin="1494,679,0,0" Name="checkmark" Stretch="Fill" VerticalAlignment="Top" Width="250" />
+        <Image Source="Img/circle01.png" Height="250" HorizontalAlignment="Left" Margin="114,72,0,0" Name="zutat" Stretch="Fill" VerticalAlignment="Top" Width="250" />
     </Grid>
 </Window>
