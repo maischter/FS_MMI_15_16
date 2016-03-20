@@ -31,32 +31,7 @@ namespace CameraVisualizations
         {
             //TODO: customize CameraVisualization's UI based on this.VisualizedTag here
         }
-        private void OnVisualizationAdded(object sender, TagVisualizerEventArgs e)
-        {
-            CameraVisualization camera = (CameraVisualization)e.TagVisualization;
-            switch (camera.VisualizedTag.Value)
-            {
-                case 1:
-                    camera.CameraModel.Content = "Fabrikam, Inc. ABC-12";
-                    camera.myEllipse.Fill = SurfaceColors.Accent1Brush;
-                    break;
-                case 2:
-                    camera.CameraModel.Content = "Fabrikam, Inc. DEF-34";
-                    camera.myEllipse.Fill = SurfaceColors.Accent2Brush;
-                    break;
-                case 3:
-                    camera.CameraModel.Content = "Fabrikam, Inc. GHI-56";
-                    camera.myEllipse.Fill = SurfaceColors.Accent3Brush;
-                    break;
-                case 4:
-                    camera.CameraModel.Content = "Fabrikam, Inc. JKL-78";
-                    camera.myEllipse.Fill = SurfaceColors.Accent4Brush;
-                    break;
-                default:
-                    camera.CameraModel.Content = "UNKNOWN MODEL";
-                    camera.myEllipse.Fill = SurfaceColors.ControlAccentBrush;
-                    break;
-            }
+        
         }
     }
 }
