@@ -5,12 +5,13 @@
     Title="CameraVisualizations"
     >
     <Grid>
-
+        <Image Source="Resources/background.png" Height="1080" HorizontalAlignment="Left" Name="background" Stretch="Fill" VerticalAlignment="Top" Width="1920" />
+        <Image Source="Resources/schneidebrett.jpg" Height="430" Margin="0,650,0,0"></Image>
+        <Image Source="Resources/checkmark.png" Height="300" Margin="1340,590,11,0" Width="300"></Image>
         <s:TagVisualizer 
             Name="MyTagVisualizer" 
             VerticalAlignment="Stretch"
             HorizontalAlignment="Stretch"
-            Background="White" 
             Height="Auto" Width="Auto"
             VisualizationAdded="OnVisualizationAdded"
             >
@@ -62,6 +63,5 @@
                                               />
             </s:TagVisualizer.Definitions>
         </s:TagVisualizer>
-        <Image Source="Resources/background.png" Height="1080" HorizontalAlignment="Left" Name="background" Stretch="Fill" VerticalAlignment="Top" Width="1920" />
     </Grid>
 </s:SurfaceWindow>
