@@ -105,24 +105,22 @@ namespace CameraVisualizations
             switch (camera.VisualizedTag.Value)
             {
                 case 1:
-                    camera.CameraModel.Content = "Fabrikam, Inc. ABC-12";
-                    camera.myEllipse.Fill = SurfaceColors.Accent1Brush;
+                    camera.CameraModel.Content = "Tomaten";
                     break;
                 case 2:
-                    camera.CameraModel.Content = "Fabrikam, Inc. DEF-34";
-                    camera.myEllipse.Fill = SurfaceColors.Accent2Brush;
+                    camera.CameraModel.Content = "Zwiebeln";
                     break;
                 case 3:
-                    camera.CameraModel.Content = "Fabrikam, Inc. GHI-56";
-                    camera.myEllipse.Fill = SurfaceColors.Accent3Brush;
+                    camera.CameraModel.Content = "Olivenöl";
                     break;
                 case 4:
-                    camera.CameraModel.Content = "Fabrikam, Inc. JKL-78";
-                    camera.myEllipse.Fill = SurfaceColors.Accent4Brush;
+                    camera.CameraModel.Content = "Frisches Basilikum";
+                    break;
+                case 5:
+                    camera.CameraModel.Content = "Creme Fraiche";
                     break;
                 default:
-                    camera.CameraModel.Content = "UNKNOWN MODEL";
-                    camera.myEllipse.Fill = SurfaceColors.ControlAccentBrush;
+                    camera.CameraModel.Content = "Unbekannte Zutat";
                     break;
             }
         }

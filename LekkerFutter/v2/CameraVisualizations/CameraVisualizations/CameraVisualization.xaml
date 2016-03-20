@@ -15,6 +15,6 @@
         <Label Name="CameraModel" 
                Content="Model" 
                HorizontalAlignment="Center" 
-               VerticalAlignment="Center" Margin="448,182,88,178" />
+               VerticalAlignment="Center" Margin="406,132,12,138" Height="130" Width="182" />
     </Grid>
 </s:TagVisualization>
