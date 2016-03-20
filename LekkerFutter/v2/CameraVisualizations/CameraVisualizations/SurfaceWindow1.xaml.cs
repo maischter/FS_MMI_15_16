@@ -125,5 +125,6 @@ namespace CameraVisualizations
                     camera.myEllipse.Fill = SurfaceColors.ControlAccentBrush;
                     break;
             }
+        }
     }
 }

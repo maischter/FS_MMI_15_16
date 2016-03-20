@@ -3,16 +3,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:s="http://schemas.microsoft.com/surface/2008"
     Loaded="CameraVisualization_Loaded"
-    Height="400" Width="400">
+    Height="400" Width="600">
     <Grid>
 
         <Ellipse Name="myEllipse"
                  HorizontalAlignment="Stretch"
                  VerticalAlignment="Stretch"/>
+        
+        <Image Source="Resources/detail01.png" Height="200" HorizontalAlignment="Left" Name="detail01" Stretch="Fill" VerticalAlignment="Top" Width="448" Margin="152,96,0,0" />
+        <Image Source="Resources/circle01.png" Height="400" HorizontalAlignment="Left" Name="circle01" Stretch="Fill" VerticalAlignment="Top" Width="400" />
         <Label Name="CameraModel" 
                Content="Model" 
                HorizontalAlignment="Center" 
-               VerticalAlignment="Center"/>
-
+               VerticalAlignment="Center" Margin="448,182,88,178" />
     </Grid>
 </s:TagVisualization>

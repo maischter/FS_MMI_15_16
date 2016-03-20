@@ -32,6 +32,5 @@ namespace CameraVisualizations
             //TODO: customize CameraVisualization's UI based on this.VisualizedTag here
         }
         
-        }
     }
 }
