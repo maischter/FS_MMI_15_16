@@ -71,6 +71,7 @@
     <Compile Include="CameraVisualization.xaml.cs">
       <DependentUpon>CameraVisualization.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Steps.cs" />
     <Compile Include="SurfaceWindow1.xaml.cs">
       <DependentUpon>SurfaceWindow1.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -101,10 +102,14 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\tomatensuppe.txt" />
+    <Resource Include="Resources\tomaten.png" />
+    <Resource Include="Resources\zwiebeln.png" />
     <Resource Include="Resources\background.png" />
     <Resource Include="Resources\checkmark.png" />
     <Resource Include="Resources\circle01.png" />
     <Resource Include="Resources\detail01.png" />
+    <Resource Include="Resources\arbeitsschritte.txt" />
     <Content Include="Resources\icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

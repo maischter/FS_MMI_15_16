@@ -3,14 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:s="http://schemas.microsoft.com/surface/2008"
     Loaded="CameraVisualization_Loaded"
-    Height="400" Width="600">
+    Height="500" Width="500">
     <Grid>
         
-        <Image Source="Resources/detail01.png" Height="200" HorizontalAlignment="Left" Name="detail01" Stretch="Fill" VerticalAlignment="Top" Width="448" Margin="152,96,0,0" />
-        <Image Source="Resources/circle01.png" Height="400" HorizontalAlignment="Left" Name="circle01" Stretch="Fill" VerticalAlignment="Top" Width="400" />
-        <Label Name="CameraModel" 
-               Content="Model" 
-               HorizontalAlignment="Center" 
-               VerticalAlignment="Center" Margin="406,132,12,138" Height="130" Width="182" />
+        <Image Visibility="Hidden" Source="Resources/tomaten.png" Height="500" HorizontalAlignment="Left" Name="tomaten" Stretch="Fill" VerticalAlignment="Top" Width="500"/>
+        <Image Visibility="Hidden" Source="Resources/zwiebeln.png" Height="500" HorizontalAlignment="Left" Name="zwiebeln" Stretch="Fill" VerticalAlignment="Top" Width="500"/>
     </Grid>
 </s:TagVisualization>

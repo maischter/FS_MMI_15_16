@@ -4,24 +4,22 @@
     xmlns:s="http://schemas.microsoft.com/surface/2008"
     Title="CameraVisualizations"
     >
-    <Grid>
+    <Grid Name="asd">
         <Image Source="Resources/background.png" Height="1080" HorizontalAlignment="Left" Name="background" Stretch="Fill" VerticalAlignment="Top" Width="1920" />
         <Image Source="Resources/schneidebrett.jpg" Height="430" Margin="0,650,0,0"></Image>
-        <Image Source="Resources/checkmark.png" Height="300" Margin="1340,590,11,0" Width="300"></Image>
+        
         <s:TagVisualizer 
             Name="MyTagVisualizer" 
             VerticalAlignment="Stretch"
             HorizontalAlignment="Stretch"
             Height="Auto" Width="Auto"
-            VisualizationAdded="OnVisualizationAdded"
-            >
+            VisualizationAdded="OnVisualizationAdded" VisualizationMoved="MyTagVisualizer_VisualizationMoved" VisualizationRemoved="MyTagVisualizer_VisualizationRemoved">
             <s:TagVisualizer.Definitions>
                 <s:TagVisualizationDefinition Value="0x1" 
                                               Source="CameraVisualization.xaml"
                                               LostTagTimeout="2000"
                                               MaxCount="2"
-                                              OrientationOffsetFromTag="0"
-                                              PhysicalCenterOffsetFromTag="2,0" 
+                                              OrientationOffsetFromTag="0" 
                                               TagRemovedBehavior="Fade"
                                               UsesTagOrientation="True"
                                               />
@@ -29,8 +27,7 @@
                                               Source="CameraVisualization.xaml"
                                               LostTagTimeout="2000"
                                               MaxCount="2"
-                                              OrientationOffsetFromTag="0"
-                                              PhysicalCenterOffsetFromTag="2,0" 
+                                              OrientationOffsetFromTag="0" 
                                               TagRemovedBehavior="Fade"
                                               UsesTagOrientation="True"
                                               />
@@ -63,5 +60,13 @@
                                               />
             </s:TagVisualizer.Definitions>
         </s:TagVisualizer>
+        <s:SurfaceScrollViewer Height="359" HorizontalAlignment="Left" Margin="1572,38,0,0" Name="surfaceScrollViewer1" VerticalAlignment="Top" Width="306">
+            <StackPanel Background="AntiqueWhite" Height="90" Name="zutatenStack" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        </s:SurfaceScrollViewer>
+        <Grid Height="400" HorizontalAlignment="Left" Margin="12,668,0,0" Name="grid1" VerticalAlignment="Top" Width="477">
+            <Label Content="Label" Height="40" HorizontalAlignment="Left" Margin="41,17,0,0" Name="asheading" VerticalAlignment="Top" Width="436" />
+            <TextBlock Height="331" HorizontalAlignment="Left" Margin="41,63,0,0" Name="ascontent" VerticalAlignment="Top" Width="282" />
+        </Grid>
+        <Image Source="Resources/checkmark.png" Height="162" HorizontalAlignment="Left" Margin="1530,702,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="208" TouchUp="Image_TouchUp"/>
     </Grid>
 </s:SurfaceWindow>
